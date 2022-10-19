@@ -34,6 +34,7 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
+local soraScalePointer=ReadLong(0x55629A)+0x3C
    if ReadShort(Now+0) == 0x1C12 and ReadShort(Now+8) == 0x44 then
 		WriteFloat(soraScalePointer, 1, true)
     elseif ReadShort(Now+0) == 0x2202 and ReadShort(Now+8) == 0x9D then
