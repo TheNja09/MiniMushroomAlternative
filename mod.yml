@@ -1,0 +1,7 @@
+assets:
+#Lua Scripts
+- name: scripts/minimushroomalt.lua
+  method: copy
+  source:
+  - name: minimushroomalt.lua
+title: Mini Mushroom (Alt.)
