@@ -5,3 +5,4 @@ assets:
   source:
   - name: minimushroomalt.lua
 title: Mini Mushroom (Alt.)
+description: This mod is an alternative version of TheNja09/MiniMushroomV1.0. This mod only affects the base size of Sora, nothing else.
